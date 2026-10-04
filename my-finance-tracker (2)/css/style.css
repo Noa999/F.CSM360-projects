@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+#index {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offcanvas-body {
+    overflow-y: auto;
+}
+
+.badge-item {
+    text-align: center;
+    padding: 10px 6px;
+    border-radius: 12px;
+    background: #fff;
+    border: 1px solid #e9ecef;
+    height: 100%;
+}
+
+.badge-item .badge-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+}
+
+.badge-item.locked {
+    opacity: 0.45;
+    filter: grayscale(1);
+}
